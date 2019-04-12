@@ -1,0 +1,34 @@
+{
+  "name": "intercommunique-server",
+  "version": "0.0.1",
+  "description": "Node server to integrate with intercom",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niveditn/intercommunique.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "intercom"
+  ],
+  "author": "niveditn",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/niveditn/intercommunique/issues"
+  },
+  "homepage": "https://github.com/niveditn/intercommunique#readme"
+}
